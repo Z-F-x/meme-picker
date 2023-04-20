@@ -1,0 +1,192 @@
+html{
+
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #3C3C3C;
+}
+
+body{
+    width: 550px;
+    min-height: 978px;
+    background-color: #fdfdfe;
+    margin: 0 auto;
+}
+
+header{
+    height: 81px;
+}
+
+.header-buttons-row{
+    height: 81px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}   
+
+.profile-button{
+    width: 32.33px;
+    height: 34px;
+    background: url('./images/Vector.png');
+    background-size: cover;
+    border: none;
+    
+}
+
+.get-random-meme-button{
+    width: 84px;
+    height: 48px;
+    background: url('./images/Rectangle\ 136.png') no-repeat;
+    background-size:contain;
+    border: none;
+
+}
+
+.direct-message-button{
+    width: 34px;
+    height: 34px;
+    background: url('./images/chat-icon.png') no-repeat;
+    background-size:contain;
+    border: none;
+}
+
+
+main{
+    display: block;
+    width: 550px;
+    height: 757px;
+    background-color: #fdfdfe;
+}
+
+.meme-container{
+    width: 550px;
+    height: 750px;
+    display: flex;
+}
+
+
+.accepted-seal-outer{
+    display: none;
+
+    position:relative;
+    /* display: flex; */
+
+}
+
+.rejected-seal-outer{
+    display: none;
+
+    position:relative;
+    /* display: flex; */
+
+}
+
+
+.rejected-seal{
+    display: flex;
+    position: absolute;
+    width: 50%;
+    transform: rotate(-45deg);
+    z-index: 1;
+    box-sizing: border-box;
+    top: -20%;
+    left:-20%;
+}
+
+.accepted-seal{
+    display: flex;
+    position: absolute;
+     width: 50%;
+    transform: rotate(-45deg);
+    z-index: 1;
+    box-sizing: border-box;
+    top: -20%;
+    left:-20%;
+}
+
+
+.meme-container-inner{
+padding: 2em;
+/* background-color: rgb(234, 234, 234); */
+background-color:#fdfdfe;
+box-shadow: 0px 10px 20px #181818;
+width: 525px;
+height: 750px;
+box-sizing: border-box;
+margin: 0 auto;
+border-radius: 15px;
+overflow: hidden;
+font-size: 1.5em;
+color: #B7B7B7;
+
+}
+
+img{
+    padding-top: 7em;
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    height: 140px;
+    /* background-color: #3C3C3C; */
+}
+
+.footer-buttons-row{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    /* margin: auto auto; */
+}
+
+/*Background for both buttons*/
+.reject-button-background, .accept-button-background{
+    background-color: #FFFFFF;
+    display: flex;
+    height: 91.87px;
+    width: 91.87px;
+    box-shadow: 0px 10px 20px #E9E9EA;
+    border-radius: 50%;
+    margin: 0em 1em;
+    /* position:relative; */
+    justify-self: center;
+    align-items: center;
+
+}
+
+/*CSS for reject button background and accept button background*/
+.reject-button, .accept-button{
+    margin: auto auto;
+    padding:0px;
+}
+
+.reject-button-background:hover{
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+
+}
+
+.accept-button-background:hover{
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+/*Reject button*/
+.reject-button{
+    width: 25.88px;
+    height: 25.88px;
+    background: url('./images/reject-icon.png') no-repeat;
+    background-size:contain;
+    border: none;
+}
+
+/*Accept button*/
+.accept-button{
+    height: 36px;
+    width: 40.8px;
+    background: url('./images/like-icon.png') no-repeat;
+    background-size:contain;
+    border: none;
+}
+
+
+
